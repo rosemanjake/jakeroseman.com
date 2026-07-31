@@ -1,0 +1,5 @@
+# Upload only the built site and the App Engine config
+*
+!app.yaml
+!dist/
+!dist/**

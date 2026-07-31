@@ -1,0 +1,39 @@
+runtime: python312
+
+default_expiration: "1h"
+
+handlers:
+# Hashed build assets are immutable — cache long
+- url: /_astro/(.*)
+  static_files: dist/_astro/\1
+  upload: dist/_astro/(.*)
+  secure: always
+  redirect_http_response_code: 301
+  expiration: "30d"
+
+- url: /
+  static_files: dist/index.html
+  upload: dist/index.html
+  secure: always
+  redirect_http_response_code: 301
+
+# Files with an extension (favicon.ico, resume.pdf, …)
+- url: /(.+\..+)
+  static_files: dist/\1
+  upload: dist/(.+\..+)
+  secure: always
+  redirect_http_response_code: 301
+
+# Clean URLs with a trailing slash: /writing/ → dist/writing/index.html
+- url: /(.+)/
+  static_files: dist/\1/index.html
+  upload: dist/(.+)/index.html
+  secure: always
+  redirect_http_response_code: 301
+
+# …and without: /writing → dist/writing/index.html
+- url: /(.+)
+  static_files: dist/\1/index.html
+  upload: dist/(.+)/index.html
+  secure: always
+  redirect_http_response_code: 301

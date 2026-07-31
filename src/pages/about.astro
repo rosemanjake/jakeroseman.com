@@ -5,22 +5,24 @@ import Header from "../components/Header.astro";
 import headshot from "../assets/headshot.jpg";
 ---
 
-<Base title="About — Jake Roseman" description="Software engineer from Australia, living in London.">
+<Base
+  title="About — Jake Roseman"
+  description="Software engineer from Australia, living in London."
+>
   <Header section="About" />
   <main class="about">
     <Image class="portrait" src={headshot} width={360} alt="Jake Roseman" />
     <div class="about-text">
       <p>
-        I am a software engineer from Australia, now living in London, where I
-        work for Google. I have been writing software professionally for half a
-        decade.
+        I am an Australian software developer in England, where I work for
+        Google as a technical writer.
       </p>
 
       <p>
         I take pride in writing clean, efficient, and maintainable code that
-        solves complex problems, and I deeply enjoy leading projects to success.
-        Away from the keyboard I write short fiction and take
-        <a href="/photography/">photographs</a>, usually in the mountains.
+        solves complex problems. Away from the keyboard I write short fiction
+        and take
+        <a href="/photography/">photographs</a>.
       </p>
 
       <p class="skills">
@@ -30,7 +32,9 @@ import headshot from "../assets/headshot.jpg";
 
       <ul class="contact-list">
         <li><a href="/resume.pdf">Resume</a></li>
-        <li><a href="mailto:roseman.jake@gmail.com">roseman.jake@gmail.com</a></li>
+        <li>
+          <a href="mailto:roseman.jake@gmail.com">roseman.jake@gmail.com</a>
+        </li>
         <li><a href="https://github.com/rosemanjake">GitHub</a></li>
         <li><a href="https://www.linkedin.com/in/jake-roseman">LinkedIn</a></li>
       </ul>
