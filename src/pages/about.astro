@@ -1,0 +1,39 @@
+---
+import { Image } from "astro:assets";
+import Base from "../layouts/Base.astro";
+import Header from "../components/Header.astro";
+import headshot from "../assets/headshot.jpg";
+---
+
+<Base title="About — Jake Roseman" description="Software engineer from Australia, living in London.">
+  <Header section="About" />
+  <main class="about">
+    <Image class="portrait" src={headshot} width={360} alt="Jake Roseman" />
+    <div class="about-text">
+      <p>
+        I am a software engineer from Australia, now living in London, where I
+        work for Google. I have been writing software professionally for half a
+        decade.
+      </p>
+
+      <p>
+        I take pride in writing clean, efficient, and maintainable code that
+        solves complex problems, and I deeply enjoy leading projects to success.
+        Away from the keyboard I write short fiction and take
+        <a href="/photography/">photographs</a>, usually in the mountains.
+      </p>
+
+      <p class="skills">
+        TypeScript &#183; JavaScript &#183; Kotlin &#183; React &#183; Next.js
+        &#183; Firebase &#183; Android
+      </p>
+
+      <ul class="contact-list">
+        <li><a href="/resume.pdf">Resume</a></li>
+        <li><a href="mailto:roseman.jake@gmail.com">roseman.jake@gmail.com</a></li>
+        <li><a href="https://github.com/rosemanjake">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/jake-roseman">LinkedIn</a></li>
+      </ul>
+    </div>
+  </main>
+</Base>

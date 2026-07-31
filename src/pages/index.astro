@@ -1,0 +1,112 @@
+---
+import { getCollection } from "astro:content";
+import { getImage } from "astro:assets";
+import type { ImageMetadata } from "astro";
+import Base from "../layouts/Base.astro";
+import Header from "../components/Header.astro";
+import galleryData from "../data/gallery.json";
+
+// Recent writing, newest first
+const posts = (await getCollection("writing"))
+  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
+  .slice(0, 3);
+
+const fmt = (d: Date) =>
+  d.toLocaleDateString("en-GB", { month: "long", year: "numeric" });
+
+// One justified row of photographs: every photo is rendered hidden with its
+// aspect ratio; a small script reveals a random row's worth per visit.
+const sources = import.meta.glob<{ default: ImageMetadata }>(
+  "../assets/gallery/*.jpg",
+  { eager: true }
+);
+
+const row = await Promise.all(
+  galleryData.map(async (entry, i) => {
+    const meta = sources[`../assets/gallery/${entry.src}`]?.default;
+    if (!meta) throw new Error(`gallery.json references missing image: ${entry.src}`);
+    const thumb = await getImage({ src: meta, widths: [300, 600], format: "webp" });
+    return {
+      id: `p${i}`,
+      ar: (meta.width / meta.height).toFixed(4),
+      thumb,
+      title: entry.title,
+    };
+  })
+);
+---
+
+<Base
+  title="Jake Roseman"
+  description="Software engineer in London. I build for the web, write short fiction, and photograph mountains."
+>
+  <Header tagline="Software engineer in London" />
+  <main class="home">
+    <p class="home-intro">
+      I am a software engineer at Google, originally from Australia. This site
+      collects what I make away from work: short fiction, landscape photography
+      from the mountains, and the occasional side project.
+    </p>
+
+    <div class="home-section-head">
+      <h2 class="section-label">Photography</h2>
+      <a class="more-link" href="/photography/">All photographs &#8594;</a>
+    </div>
+    <div class="home-row"></div>
+    <template id="row-pool">
+      {
+        row.map((p) => (
+          <a href={`/photography/#${p.id}`} style={`--ar: ${p.ar}`}>
+            <img
+              src={p.thumb.src}
+              srcset={p.thumb.srcSet.attribute}
+              sizes="(max-width: 700px) 50vw, 20vw"
+              width={p.thumb.attributes.width}
+              height={p.thumb.attributes.height}
+              alt={p.title}
+              decoding="async"
+            />
+          </a>
+        ))
+      }
+    </template>
+
+    <script>
+      // Fill the row with a random grab-bag of photographs on each visit.
+      // The pool lives in a <template>, so unchosen images are never fetched.
+      const rowEl = document.querySelector(".home-row")!;
+      const pool = document.getElementById("row-pool") as HTMLTemplateElement;
+      const items = [...pool.content.querySelectorAll<HTMLAnchorElement>("a")];
+      for (let i = items.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [items[i], items[j]] = [items[j], items[i]];
+      }
+      // Narrower screens get fewer photos so thumbnails stay a decent size.
+      const budget = innerWidth < 520 ? 3 : innerWidth < 860 ? 4.2 : 5.5;
+      let sum = 0;
+      for (const a of items) {
+        const ar = parseFloat(a.style.getPropertyValue("--ar"));
+        if (sum + ar > budget) continue;
+        sum += ar;
+        rowEl.appendChild(a);
+      }
+    </script>
+
+    <div class="home-section-head">
+      <h2 class="section-label">Recent writing</h2>
+      <a class="more-link" href="/writing/">All writing &#8594;</a>
+    </div>
+    <ul class="home-list">
+      {
+        posts.map((post) => (
+          <li>
+            <a href={`/writing/${post.id}/`}>
+              <span class="post-title">{post.data.title}</span>
+              <span class="post-date">{fmt(post.data.date)}</span>
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </main>
+</Base>

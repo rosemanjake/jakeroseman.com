@@ -1,0 +1,86 @@
+---
+import { Image } from "astro:assets";
+import Base from "../layouts/Base.astro";
+import Header from "../components/Header.astro";
+import alignment from "../assets/projects/alignment.png";
+import revisionist from "../assets/projects/revisionist.png";
+import murphy from "../assets/projects/murphy.png";
+import cornice from "../assets/projects/cornice.png";
+
+const projects = [
+  {
+    title: "Alignment Agency",
+    url: "https://www.alignment-agency.ai",
+    role: "AI interrogation game",
+    description:
+      "Alignment Agency is a game in which you interrogate AIs and determine whether they are aligned or misaligned with human values and interests.",
+    stack: "Next.js · API routes · Firebase · Gemini Flash",
+    shot: alignment,
+  },
+  {
+    title: "Revisionist",
+    url: "https://www.revisionist.ai",
+    role: "AI-powered manuscript reviews",
+    description:
+      "Revisionist is a web app that provides AI-powered reviews for fiction manuscripts.",
+    stack: "TypeScript · Next.js · Firebase · Claude API",
+    shot: revisionist,
+  },
+  {
+    title: "Murphy’s Run",
+    url: "https://www.murphysrun.com",
+    role: "Short story collection",
+    description:
+      "Murphy’s Run is a website that hosts a collection of seven short stories.",
+    stack: "JavaScript · React · Next.js · Framer Motion",
+    shot: murphy,
+  },
+  {
+    title: "Cornice",
+    url: "https://www.cornicemag.com/read",
+    role: "Literary magazine",
+    description:
+      "Cornice is a literary website that publishes works of poetry and short fiction from around the world.",
+    stack: "React SPA · Node · Express",
+    shot: cornice,
+  },
+];
+---
+
+<Base title="Projects — Jake Roseman" description="Software projects by Jake Roseman.">
+  <Header section="Projects" />
+  <main class="projects">
+    {
+      projects.map((p) => (
+        <article class="project">
+          <div class="project-text">
+            <h2>
+              <a href={p.url}>
+                {p.title}
+                <span class="ext">&#8599;</span>
+              </a>
+            </h2>
+            <p class="project-role">{p.role}</p>
+            <p>{p.description}</p>
+            <p class="project-stack">{p.stack}</p>
+          </div>
+          <a class="project-shot" href={p.url}>
+            <Image src={p.shot} width={480} alt={`${p.title} screenshot`} />
+          </a>
+        </article>
+      ))
+    }
+    <article class="project">
+      <div class="project-text">
+        <h2><a href="/">jakeroseman.com</a></h2>
+        <p class="project-role">This website</p>
+        <p>
+          The site you are reading now: static HTML with hand-tuned typography,
+          a pure-CSS justified photo gallery, and a dependency-free lightbox
+          built on the native <code>&lt;dialog&gt;</code> element.
+        </p>
+        <p class="project-stack">Astro · ~150 lines of vanilla JS</p>
+      </div>
+    </article>
+  </main>
+</Base>

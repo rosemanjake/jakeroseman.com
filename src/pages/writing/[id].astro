@@ -1,0 +1,37 @@
+---
+import { getCollection, render } from "astro:content";
+import Base from "../../layouts/Base.astro";
+import Header from "../../components/Header.astro";
+
+export async function getStaticPaths() {
+  const posts = await getCollection("writing");
+  return posts.map((post) => ({
+    params: { id: post.id },
+    props: { post },
+  }));
+}
+
+const { post } = Astro.props;
+const { Content } = await render(post);
+
+const fmt = (d: Date) =>
+  d.toLocaleDateString("en-GB", { month: "long", year: "numeric" });
+---
+
+<Base
+  title={`${post.data.title} — Jake Roseman`}
+  description={post.data.subtitle}
+  bodyClass={`article ${post.data.category === "fiction" ? "fiction" : "tech"}`}
+>
+  <Header section="Writing" />
+  <main class="prose">
+    <h1>{post.data.title}</h1>
+    <div class="art-header">
+      <p class="art-subtitle">{post.data.subtitle}</p>
+      <p class="art-date">{fmt(post.data.date)}</p>
+      {post.data.published && <p class="pub-note">{post.data.published}.</p>}
+    </div>
+    <Content />
+    {post.data.category === "fiction" && <p class="end-mark">&#10087;</p>}
+  </main>
+</Base>
