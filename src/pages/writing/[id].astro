@@ -1,5 +1,6 @@
 ---
 import { getCollection, render } from "astro:content";
+import { getImage } from "astro:assets";
 import Base from "../../layouts/Base.astro";
 import Header from "../../components/Header.astro";
 
@@ -16,12 +17,33 @@ const { Content } = await render(post);
 
 const fmt = (d: Date) =>
   d.toLocaleDateString("en-GB", { month: "long", year: "numeric" });
+
+const cover = await getImage({ src: post.data.cover, width: 1200, format: "webp" });
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  headline: post.data.title,
+  description: post.data.subtitle,
+  datePublished: post.data.date.toISOString().slice(0, 10),
+  image: new URL(cover.src, Astro.site).href,
+  url: new URL(`/writing/${post.id}/`, Astro.site).href,
+  genre: post.data.category === "fiction" ? "Short story" : "Technology",
+  author: {
+    "@type": "Person",
+    name: "Jake Roseman",
+    url: "https://jakeroseman.com",
+  },
+};
 ---
 
 <Base
   title={`${post.data.title} — Jake Roseman`}
   description={post.data.subtitle}
   bodyClass={`article ${post.data.category === "fiction" ? "fiction" : "tech"}`}
+  ogType="article"
+  ogImage={cover.src}
+  schema={schema}
 >
   <Header section="Writing" />
   <main class="prose">

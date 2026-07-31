@@ -7,9 +7,36 @@ interface Props {
   title: string;
   description?: string;
   bodyClass?: string;
+  ogType?: "website" | "article";
+  ogImage?: string;
+  schema?: Record<string, unknown>;
 }
 
-const { title, description, bodyClass } = Astro.props;
+const {
+  title,
+  description,
+  bodyClass,
+  ogType = "website",
+  ogImage = "/og.jpg",
+  schema,
+} = Astro.props;
+
+const canonical = new URL(Astro.url.pathname, Astro.site);
+const ogImageAbs = new URL(ogImage, Astro.site);
+
+const person = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  name: "Jake Roseman",
+  url: "https://jakeroseman.com",
+  jobTitle: "Software Engineer",
+  worksFor: { "@type": "Organization", name: "Google" },
+  sameAs: [
+    "https://github.com/rosemanjake",
+    "https://www.linkedin.com/in/jake-roseman",
+    "https://www.x.com/roseman_jake",
+  ],
+};
 ---
 
 <!doctype html>
@@ -18,11 +45,19 @@ const { title, description, bodyClass } = Astro.props;
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" href="/favicon.ico" sizes="32x32" />
-    <link rel="canonical" href={new URL(Astro.url.pathname, Astro.site)} />
+    <link rel="canonical" href={canonical} />
+    <link rel="sitemap" href="/sitemap-index.xml" />
     <title>{title}</title>
     {description && <meta name="description" content={description} />}
     <meta property="og:title" content={title} />
     {description && <meta property="og:description" content={description} />}
+    <meta property="og:type" content={ogType} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:site_name" content="Jake Roseman" />
+    <meta property="og:image" content={ogImageAbs} />
+    <meta name="twitter:card" content="summary" />
+    <script type="application/ld+json" set:html={JSON.stringify(person)} />
+    {schema && <script type="application/ld+json" set:html={JSON.stringify(schema)} />}
   </head>
   <body class={bodyClass}>
     <slot />

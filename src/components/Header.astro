@@ -17,9 +17,15 @@ const tabs = [
 ---
 
 <header class="site">
-  <p class="masthead">
-    {isHome ? <span>Jake Roseman</span> : <a href="/">Jake Roseman</a>}
-  </p>
+  {
+    isHome ? (
+      <h1 class="masthead">Jake Roseman</h1>
+    ) : (
+      <p class="masthead">
+        <a href="/">Jake Roseman</a>
+      </p>
+    )
+  }
   <p class="section-name">{tagline ?? section}</p>
   <nav class="site-nav">
     {
