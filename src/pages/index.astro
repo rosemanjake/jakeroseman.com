@@ -18,21 +18,26 @@ const fmt = (d: Date) =>
 // aspect ratio; a small script reveals a random row's worth per visit.
 const sources = import.meta.glob<{ default: ImageMetadata }>(
   "../assets/gallery/*.jpg",
-  { eager: true }
+  { eager: true },
 );
 
 const row = await Promise.all(
   galleryData.map(async (entry, i) => {
     const meta = sources[`../assets/gallery/${entry.src}`]?.default;
-    if (!meta) throw new Error(`gallery.json references missing image: ${entry.src}`);
-    const thumb = await getImage({ src: meta, widths: [300, 600], format: "webp" });
+    if (!meta)
+      throw new Error(`gallery.json references missing image: ${entry.src}`);
+    const thumb = await getImage({
+      src: meta,
+      widths: [300, 600],
+      format: "webp",
+    });
     return {
       id: `p${i}`,
       ar: (meta.width / meta.height).toFixed(4),
       thumb,
       title: entry.title,
     };
-  })
+  }),
 );
 ---
 
@@ -43,9 +48,9 @@ const row = await Promise.all(
   <Header tagline="Software engineer in London" />
   <main class="home">
     <p class="home-intro">
-      I am a software engineer at Google, originally from Australia. This site
-      collects what I make away from work: short fiction, landscape photography
-      from the mountains, and the occasional side project.
+      I am an Australian software developer in England. This site collects what
+      I make away from work: short fiction, photography, and the occasional side
+      project.
     </p>
 
     <div class="home-section-head">
