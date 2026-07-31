@@ -492,7 +492,7 @@ dialog.lightbox { --lb-vpad: 9rem; } /* vertical space reserved for padding + ca
   letter-spacing: 0.09em;
   text-transform: uppercase;
   color: var(--muted);
-  flex: 0 0 6.5rem;
+  flex: 0 0 9.5rem;
 }
 .skills dd {
   margin: 0;
