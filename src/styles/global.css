@@ -85,6 +85,8 @@ nav.site-nav {
   font-family: var(--sans);
   letter-spacing: 0.04em;
   text-transform: uppercase;
+  user-select: none;
+  -webkit-user-select: none;
 }
 nav.site-nav a {
   color: var(--muted);
@@ -125,6 +127,8 @@ main { max-width: 1200px; margin: 0 auto; padding: 0 1.5rem 6rem; }
   color: var(--muted);
   text-decoration: none;
   padding-bottom: 0.5rem;
+  user-select: none;
+  -webkit-user-select: none;
 }
 .more-link:hover { color: var(--ink); }
 .home-row {
@@ -277,6 +281,8 @@ dialog.lightbox { --lb-vpad: 9rem; } /* vertical space reserved for padding + ca
   cursor: pointer;
   padding: 1.2rem;
   line-height: 1;
+  user-select: none;
+  -webkit-user-select: none;
 }
 .lb-btn:hover { color: #fff; }
 .lb-prev { left: 0.4rem; }
