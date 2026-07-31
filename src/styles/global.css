@@ -477,11 +477,26 @@ dialog.lightbox { --lb-vpad: 9rem; } /* vertical space reserved for padding + ca
 .about-text p { margin: 0 0 1.1rem; font-size: 1.05rem; line-height: 1.7; }
 .about-text a { color: inherit; text-underline-offset: 3px; text-decoration-thickness: 1px; }
 .skills {
+  margin: 1.8rem 0 0;
+}
+.skills > div {
+  display: flex;
+  align-items: baseline;
+  gap: 1.2rem;
+  padding: 0.3rem 0;
+}
+.skills dt {
   font-family: var(--sans);
-  font-size: 0.78rem;
-  letter-spacing: 0.06em;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.09em;
   text-transform: uppercase;
   color: var(--muted);
+  flex: 0 0 6.5rem;
+}
+.skills dd {
+  margin: 0;
+  font-size: 0.98rem;
 }
 .contact-list {
   list-style: none;
