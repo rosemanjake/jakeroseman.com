@@ -67,7 +67,10 @@ const photos = await Promise.all(
 
   <dialog id="lightbox" class="lightbox">
     <div class="lb-stage">
-      <img id="lb-img" src="" alt="" />
+      <div class="lb-frame">
+        <img id="lb-ph" class="lb-ph" src="" alt="" aria-hidden="true" />
+        <img id="lb-img" src="" alt="" />
+      </div>
       <div class="lb-caption">
         <div id="lb-title" class="cap-title"></div>
         <div id="lb-meta" class="cap-meta"></div>
@@ -83,6 +86,8 @@ const photos = await Promise.all(
     // element, with keyboard/swipe navigation, preloading, and URL hashes.
     const anchors = [...document.querySelectorAll<HTMLAnchorElement>("a.photo")];
     const dlg = document.getElementById("lightbox") as HTMLDialogElement;
+    const frame = document.querySelector(".lb-frame") as HTMLDivElement;
+    const ph = document.getElementById("lb-ph") as HTMLImageElement;
     const img = document.getElementById("lb-img") as HTMLImageElement;
     const title = document.getElementById("lb-title")!;
     const meta = document.getElementById("lb-meta")!;
@@ -96,7 +101,11 @@ const photos = await Promise.all(
 
       // Reserve the image's final box immediately (we know its aspect
       // ratio), so the caption never jumps to the centre of the screen.
-      img.style.setProperty("--ar", a.style.getPropertyValue("--ar"));
+      frame.style.setProperty("--ar", a.style.getPropertyValue("--ar"));
+
+      // The grid thumbnail is already in the browser cache: show it at
+      // once, blurred, as a placeholder under the incoming full image.
+      ph.src = a.querySelector("img")?.currentSrc ?? "";
 
       // Hide the outgoing image, decode the new one off-screen, and only
       // swap it in when it can paint instantly — no wrong-image flash.

@@ -219,19 +219,34 @@ dialog.lightbox { --lb-vpad: 9rem; } /* vertical space reserved for padding + ca
   gap: 0.9rem;
   padding: 2.5rem 4.5rem;
 }
-.lb-stage img {
+.lb-frame {
   /* Sized from the photo's known aspect ratio, not its loaded pixels, so
      the box (and the caption below it) is stable before the file arrives. */
+  position: relative;
   aspect-ratio: var(--ar, 3 / 2);
   width: min(100%, calc((100svh - var(--lb-vpad)) * var(--ar, 1.5)));
-  height: auto;
-  display: block;
   border-radius: var(--radius-s);
+  overflow: hidden;
   background: rgba(255, 255, 255, 0.03);
-  opacity: 1;
-  transition: opacity 0.15s ease;
 }
-.lb-stage img.lb-loading { opacity: 0; }
+.lb-frame img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.lb-ph {
+  /* Cached grid thumbnail, gently blurred, under the incoming full image */
+  filter: blur(6px);
+  transform: scale(1.03);
+}
+#lb-img {
+  opacity: 1;
+  transition: opacity 0.2s ease;
+}
+#lb-img.lb-loading { opacity: 0; }
 .lb-caption {
   color: #cfc9bf;
   font-family: var(--serif);
