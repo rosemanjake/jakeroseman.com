@@ -28,7 +28,6 @@ const photos = await Promise.all(
       full: full.src,
       title: entry.title,
       date: entry.date,
-      description: entry.description,
     };
   })
 );
@@ -46,7 +45,7 @@ const photos = await Promise.all(
             data-i={i}
             data-full={p.full}
             data-title={p.title}
-            data-meta={[p.date, p.description].filter(Boolean).join(" — ")}
+            data-meta={p.date}
             style={`--ar: ${p.ar}`}
           >
             <img
