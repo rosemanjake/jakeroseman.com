@@ -88,13 +88,36 @@ const photos = await Promise.all(
     const meta = document.getElementById("lb-meta")!;
     let current = -1;
 
+    let token = 0;
+
     function render() {
       const a = anchors[current];
-      img.src = a.dataset.full!;
-      img.alt = a.dataset.title!;
+      const t = ++token;
+
+      // Reserve the image's final box immediately (we know its aspect
+      // ratio), so the caption never jumps to the centre of the screen.
+      img.style.setProperty("--ar", a.style.getPropertyValue("--ar"));
+
+      // Hide the outgoing image, decode the new one off-screen, and only
+      // swap it in when it can paint instantly — no wrong-image flash.
+      img.classList.add("lb-loading");
       title.textContent = a.dataset.title!;
       meta.textContent = a.dataset.meta!;
       history.replaceState(null, "", a.getAttribute("href"));
+
+      const full = a.dataset.full!;
+      const pre = new Image();
+      pre.src = full;
+      pre
+        .decode()
+        .catch(() => {}) // decode() can reject spuriously; show the image anyway
+        .then(() => {
+          if (t !== token) return; // a newer photo superseded this one
+          img.src = full;
+          img.alt = a.dataset.title!;
+          img.classList.remove("lb-loading");
+        });
+
       for (const j of [current + 1, current - 1]) {
         if (anchors[j]) new Image().src = anchors[j].dataset.full!;
       }
