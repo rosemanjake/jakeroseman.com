@@ -3,7 +3,6 @@ title: "The Bear"
 subtitle: "A young man hiking through bear country keeps a watchful eye."
 date: 2024-01-31
 category: fiction
-cover: "../../assets/blog/thebear.jpg"
 ---
 
 George knelt over the droppings and prodded them with a stick. Unlike some other scat he had seen on the trail, these were fresh and not yet dried out. Mostly red in colour, they were fibrous and lacked a strong odour. The bear that had produced them must not have eaten meat recently. George knew that such a meat-starved bear might well try to snatch up a lone hiker if it had the chance. He massaged the cool aluminium of his bear spray canister and rose to his feet.

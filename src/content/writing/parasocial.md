@@ -3,7 +3,6 @@ title: "Parasocial"
 subtitle: "A man does anything he can to meet with his Hollywood idol."
 date: 2023-01-03
 category: fiction
-cover: "../../assets/blog/parasocial.jpg"
 published: "Originally published in Quadrant 67:3"
 ---
 

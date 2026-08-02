@@ -3,7 +3,6 @@ title: "The Gale"
 subtitle: "A photographer arrives on the scene of a bushfire."
 date: 2014-01-04
 category: fiction
-cover: "../../assets/blog/gale.jpg"
 published: "Originally published in Voiceworks 97"
 ---
 

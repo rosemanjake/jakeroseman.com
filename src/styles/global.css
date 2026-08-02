@@ -320,16 +320,6 @@ dialog.lightbox { --lb-vpad: 9rem; } /* vertical space reserved for padding + ca
   margin-top: 1.4rem;
 }
 .writing-item { color: inherit; text-decoration: none; display: block; }
-.writing-item img {
-  width: 100%;
-  aspect-ratio: 3 / 2;
-  object-fit: cover;
-  display: block;
-  margin-bottom: 0.75rem;
-  height: auto;
-  border-radius: var(--radius-m);
-  box-shadow: var(--shadow);
-}
 .writing-item .post-title { display: block; font-size: 1.15rem; }
 .writing-item:hover .post-title { text-decoration: underline; text-underline-offset: 3px; text-decoration-thickness: 1px; }
 .writing-item .post-date {

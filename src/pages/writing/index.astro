@@ -1,6 +1,5 @@
 ---
 import { getCollection } from "astro:content";
-import { Image } from "astro:assets";
 import Base from "../../layouts/Base.astro";
 import Header from "../../components/Header.astro";
 
@@ -26,12 +25,6 @@ const fmt = (d: Date) =>
           <div class="writing-gallery">
             {section.posts.map((post) => (
               <a class="writing-item" href={`/writing/${post.id}/`}>
-                <Image
-                  src={post.data.cover}
-                  widths={[300, 460, 690]}
-                  sizes="(max-width: 500px) 90vw, 300px"
-                  alt=""
-                />
                 <span class="post-title">{post.data.title}</span>
                 <span class="post-date">{fmt(post.data.date)}</span>
                 <span class="post-sub">{post.data.subtitle}</span>

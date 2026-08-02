@@ -3,7 +3,6 @@ title: "Markdown parsing"
 subtitle: "Thoughts on how you can efficiently parse and analyse text files."
 date: 2024-01-05
 category: tech
-cover: "../../assets/blog/code.jpg"
 ---
 
 I have developed many tools for technical writers. They lint, format, parse, and convert Markdown files. While designing these tools, certain common problems have repeatedly arisen. In response, I have developed a general approach that has proven to be effective and extensible in production. This article lays out that approach and the key lessons I have learnt.
