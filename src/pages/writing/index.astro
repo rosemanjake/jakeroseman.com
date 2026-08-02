@@ -4,10 +4,13 @@ import Base from "../../layouts/Base.astro";
 import Header from "../../components/Header.astro";
 
 const posts = await getCollection("writing");
-const byDate = (a: (typeof posts)[number], b: (typeof posts)[number]) =>
-  b.data.date.getTime() - a.data.date.getTime();
+type Post = (typeof posts)[number];
+const byOrder = (a: Post, b: Post) =>
+  (a.data.order ?? Infinity) - (b.data.order ?? Infinity);
+const byDate = (a: Post, b: Post) =>
+  (b.data.date?.getTime() ?? 0) - (a.data.date?.getTime() ?? 0);
 const sections = [
-  { label: "Fiction", posts: posts.filter((p) => p.data.category === "fiction").sort(byDate) },
+  { label: "Fiction", posts: posts.filter((p) => p.data.category === "fiction").sort(byOrder) },
   { label: "Technical", posts: posts.filter((p) => p.data.category === "tech").sort(byDate) },
 ];
 
@@ -26,7 +29,7 @@ const fmt = (d: Date) =>
             {section.posts.map((post) => (
               <a class="writing-item" href={`/writing/${post.id}/`}>
                 <span class="post-title">{post.data.title}</span>
-                <span class="post-date">{fmt(post.data.date)}</span>
+                {post.data.date && <span class="post-date">{fmt(post.data.date)}</span>}
                 <span class="post-sub">{post.data.subtitle}</span>
               </a>
             ))}

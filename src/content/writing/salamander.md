@@ -1,7 +1,7 @@
 ---
 title: "Salamander"
 subtitle: "A young man is sure something is wrong with him."
-date: 2023-09-30
+order: 4
 category: fiction
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "The Bear"
 subtitle: "A young man hiking through bear country keeps a watchful eye."
-date: 2024-01-31
+order: 3
 category: fiction
 ---
 

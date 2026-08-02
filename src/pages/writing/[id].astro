@@ -22,7 +22,9 @@ const schema = {
   "@type": "BlogPosting",
   headline: post.data.title,
   description: post.data.subtitle,
-  datePublished: post.data.date.toISOString().slice(0, 10),
+  ...(post.data.date && {
+    datePublished: post.data.date.toISOString().slice(0, 10),
+  }),
   url: new URL(`/writing/${post.id}/`, Astro.site).href,
   genre: post.data.category === "fiction" ? "Short story" : "Technology",
   author: {
@@ -45,7 +47,7 @@ const schema = {
     <h1>{post.data.title}</h1>
     <div class="art-header">
       <p class="art-subtitle">{post.data.subtitle}</p>
-      <p class="art-date">{fmt(post.data.date)}</p>
+      {post.data.date && <p class="art-date">{fmt(post.data.date)}</p>}
       {post.data.published && <p class="pub-note">{post.data.published}.</p>}
     </div>
     <Content />

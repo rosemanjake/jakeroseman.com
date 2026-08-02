@@ -1,7 +1,7 @@
 ---
 title: "Murphy's Run"
 subtitle: "A man prospects for gold in colonial Victoria."
-date: 2023-09-30
+order: 1
 category: fiction
 ---
 

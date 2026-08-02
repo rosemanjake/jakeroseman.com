@@ -6,13 +6,11 @@ import Base from "../layouts/Base.astro";
 import Header from "../components/Header.astro";
 import galleryData from "../data/gallery.json";
 
-// Recent writing, newest first
+// Selected writing: the top of the manually ordered fiction list
 const posts = (await getCollection("writing"))
-  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
+  .filter((p) => p.data.order !== undefined)
+  .sort((a, b) => (a.data.order ?? 0) - (b.data.order ?? 0))
   .slice(0, 3);
-
-const fmt = (d: Date) =>
-  d.toLocaleDateString("en-GB", { month: "long", year: "numeric" });
 
 // One justified row of photographs: every photo is rendered hidden with its
 // aspect ratio; a small script reveals a random row's worth per visit.
@@ -98,7 +96,7 @@ const row = await Promise.all(
     </script>
 
     <div class="home-section-head">
-      <h2 class="section-label">Recent writing</h2>
+      <h2 class="section-label">Selected writing</h2>
       <a class="more-link" href="/writing/">All writing &#8594;</a>
     </div>
     <ul class="home-list">
@@ -107,7 +105,6 @@ const row = await Promise.all(
           <li>
             <a href={`/writing/${post.id}/`}>
               <span class="post-title">{post.data.title}</span>
-              <span class="post-date">{fmt(post.data.date)}</span>
             </a>
           </li>
         ))

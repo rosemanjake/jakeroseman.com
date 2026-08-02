@@ -1,7 +1,7 @@
 ---
 title: "Shotgun"
 subtitle: "A father avenges his son's death."
-date: 2023-08-10
+order: 7
 category: fiction
 ---
 
