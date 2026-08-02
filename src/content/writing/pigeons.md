@@ -5,72 +5,213 @@ date: 2023-08-19
 category: fiction
 ---
 
-An enormous flock of pigeons had seized the house across the road from Kevin’s. They were dozens strong, and their numbers only seemed to grow. The house had once been a handsome villa, but the pigeons had since covered it in an ever-thickening layer of guano. The vermin did not fancy the house just because of the excellent shelter that its many hidden nooks afforded them. They settled there because the owner had a habit of throwing countless handfuls of bread to them every day.
+An enormous flock of pigeons had seized the house across the road from Kevin’s.
+They were dozens strong, and their numbers only seemed to grow. The house had
+once been a handsome villa, but the pigeons had since covered it in an
+ever-thickening layer of guano. The vermin did not fancy the house just because
+of the excellent shelter that its many hidden nooks afforded them. They settled
+there because the owner had a habit of throwing countless handfuls of bread to
+them every day.
 
-With few exceptions, this man would stumble out of his deteriorating home every morning and every evening. With gaunt and withered limbs he tossed handful after handful of brown bread onto his front lawn. Every day he went through two full loaves. Kevin worked from home and his office looked over the street. Every day as he began and ended his work, he watched his neighbour fuel the infestation. The pigeons swarmed around him as he threw out the bread. Kevin often caught the man smiling while he was engulfed in that maelstrom of feathers and pathogens.
+With few exceptions, this man would stumble out of his deteriorating home every
+morning and every evening. With gaunt and withered limbs he tossed handful after
+handful of brown bread onto his front lawn. Every day he went through two full
+loaves. Kevin worked from home and his office looked over the street. Every day
+as he began and ended his work, he watched his neighbour fuel the infestation.
+The pigeons swarmed around him as he threw out the bread. Kevin often caught the
+man smiling while he was engulfed in that maelstrom of feathers and pathogens.
 
-The house where the pigeons lived was not the only target of their excretions. Kevin inspected his home and belongings every evening, and he was regularly forced to wipe away the droppings. When he did so, he made sure to wear gloves, two face masks, and a clear full-body raincoat that he washed afterwards with a powerful disinfectant.
+The house where the pigeons lived was not the only target of their excretions.
+Kevin inspected his home and belongings every evening, and he was regularly
+forced to wipe away the droppings. When he did so, he made sure to wear gloves,
+two face masks, and a clear full-body raincoat that he washed afterwards with a
+powerful disinfectant.
 
-On several occasions, Kevin had seen his neighbours watching the pigeons from their front windows. He sometimes spotted them also cleaning excrement from their windows and the roofs of their cars. He waved to them, but they were not inclined to return his kindness.
+On several occasions, Kevin had seen his neighbours watching the pigeons from
+their front windows. He sometimes spotted them also cleaning excrement from
+their windows and the roofs of their cars. He waved to them, but they were not
+inclined to return his kindness.
 
-One year earlier, Kevin’s next door neighbour had adopted a golden retriever from the local shelter. Kevin began to regularly knock on her door in full protective gear. He tried to persuade her to return the dog to the shelter. He enumerated all the many species of bacteria that were growing in the dog’s mouth and the various infections they could yield. The creature was undoubtedly a health hazard for the whole neighbourhood. Before very long, the neighbour refused to answer the door. She blocked his phone number and social media accounts.
+One year earlier, Kevin’s next door neighbour had adopted a golden retriever
+from the local shelter. Kevin began to regularly knock on her door in full
+protective gear. He tried to persuade her to return the dog to the shelter. He
+enumerated all the many species of bacteria that were growing in the dog’s mouth
+and the various infections they could yield. The creature was undoubtedly a
+health hazard for the whole neighbourhood. Before very long, the neighbour
+refused to answer the door. She blocked his phone number and social media
+accounts.
 
-Over the course of several weeks, Kevin festooned his house with reflective stickers and decoy statues of owls and raptors. Along any ledge or sill he could reach, he placed spikes. He even installed several ultrasonic bird repellers that emitted a screech so shrill that it was beyond the range of human hearing.
+Over the course of several weeks, Kevin festooned his house with reflective
+stickers and decoy statues of owls and raptors. Along any ledge or sill he could
+reach, he placed spikes. He even installed several ultrasonic bird repellers
+that emitted a screech so shrill that it was beyond the range of human hearing.
 
-These measures barely decreased the prodigious rate at which the pigeons dropped their excrement on his home. He wondered if they might have been consciously targeting him. Kevin ordered a few more discreet measures, such as a repellent gel that would disturb the pigeons by sticking to their feet when they walked over it. He also purchased a pair of dark gloves and a long black raincoat.
+These measures barely decreased the prodigious rate at which the pigeons dropped
+their excrement on his home. He wondered if they might have been consciously
+targeting him. Kevin ordered a few more discreet measures, such as a repellent
+gel that would disturb the pigeons by sticking to their feet when they walked
+over it. He also purchased a pair of dark gloves and a long black raincoat.
 
-He rose shortly before two in the morning on a Tuesday and dressed in his new outfit. With the repellent gel in his pocket, he crept over to the old man’s house. The pigeons were asleep and little stirred in the night but the rumbling of traffic on a nearby motorway. The many guano-caked window sills on the ground floor were level with Kevin’s shoulders. He reached up to smother one of them with a layer of the repellent gel. Although he wore several masks, he held his breath as he did so to keep from inhaling any pathogens he might have loosed from the foul guano.
+He rose shortly before two in the morning on a Tuesday and dressed in his new
+outfit. With the repellent gel in his pocket, he crept over to the old man’s
+house. The pigeons were asleep and little stirred in the night but the rumbling
+of traffic on a nearby motorway. The many guano-caked window sills on the ground
+floor were level with Kevin’s shoulders. He reached up to smother one of them
+with a layer of the repellent gel. Although he wore several masks, he held his
+breath as he did so to keep from inhaling any pathogens he might have loosed
+from the foul guano.
 
-The lower window sills were not the favourite of the pigeons. He would need to climb up to reach the first floor windows and the high places in which they hid themselves. Thankfully, there was a portico that reached out over the front door and offered a platform on which to do just that. Kevin grabbed the old man’s bin and carefully wheeled it to the portico. He settled it on a flat area, and pulled himself atop it.
+The lower window sills were not the favourite of the pigeons. He would need to
+climb up to reach the first floor windows and the high places in which they hid
+themselves. Thankfully, there was a portico that reached out over the front door
+and offered a platform on which to do just that. Kevin grabbed the old man’s bin
+and carefully wheeled it to the portico. He settled it on a flat area, and
+pulled himself atop it.
 
-The ground proved not to be as flat as he had imagined. The bin teetered and he held out his arms for balance. One of the wheels span, and the bin swept out from under him. Both he and the bin came crashing down. It tossed him into an adjacent window and his elbow smashed the glass. The heavy fabric of the raincoat kept the sharp edge from cutting his flesh and he tumbled into a bush mostly unharmed.
+The ground proved not to be as flat as he had imagined. The bin teetered and he
+held out his arms for balance. One of the wheels span, and the bin swept out
+from under him. Both he and the bin came crashing down. It tossed him into an
+adjacent window and his elbow smashed the glass. The heavy fabric of the
+raincoat kept the sharp edge from cutting his flesh and he tumbled into a bush
+mostly unharmed.
 
-The pigeons were much alarmed by this sudden noise and they emerged from their hiding places all at once, flapping and gurgling in a ceaseless wave like some bomber stream tasked with Kevin’s destruction. Kevin felt the air displaced by their wings and held his breath against the innumerable microbes that the diseased birds thereby wafted over him.
+The pigeons were much alarmed by this sudden noise and they emerged from their
+hiding places all at once, flapping and gurgling in a ceaseless wave like some
+bomber stream tasked with Kevin’s destruction. Kevin felt the air displaced by
+their wings and held his breath against the innumerable microbes that the
+diseased birds thereby wafted over him.
 
-Kevin was already running when the old man opened one of the high windows. As he took off through the swarm of pigeons and into the darkness, the man called after him and hurled all manner of strange and unusual threats. Kevin could of course not return to his home, directly opposite the old man as it was. Instead, Kevin circled around the neighbourhood, hoping to return to the street once the old man had gone back to sleep. When he looked down the street again ten minutes later, he saw a police car before the old man’s house. A policeman shone a torch on the broken window.
+Kevin was already running when the old man opened one of the high windows. As he
+took off through the swarm of pigeons and into the darkness, the man called
+after him and hurled all manner of strange and unusual threats. Kevin could of
+course not return to his home, directly opposite the old man as it was. Instead,
+Kevin circled around the neighbourhood, hoping to return to the street once the
+old man had gone back to sleep. When he looked down the street again ten minutes
+later, he saw a police car before the old man’s house. A policeman shone a torch
+on the broken window.
 
-Kevin continued to walk the neighbourhood. He took sanctuary in a local park where a line of tall beech trees offered ample shelter. At first he squatted there in the bushes but he found it more comfortable to sit. It was more comfortable still to lie down. Late as it was, he thought he would rest his eyes for a little while, just until the police were gone. He lay on his back and trusted that his protective equipment would shield him from any soil-borne microorganisms.
+Kevin continued to walk the neighbourhood. He took sanctuary in a local park
+where a line of tall beech trees offered ample shelter. At first he squatted
+there in the bushes but he found it more comfortable to sit. It was more
+comfortable still to lie down. Late as it was, he thought he would rest his eyes
+for a little while, just until the police were gone. He lay on his back and
+trusted that his protective equipment would shield him from any soil-borne
+microorganisms.
 
-* * *
+---
 
-When he woke it was not because of the morning light or the discomfort of the cold. Rather, it was because of a sudden wetness against his forehead. Kevin let out a cry that might well have come from his ultrasonic repeller. The golden retriever from next door was right there atop him, licking his face with abandon. He gagged behind his mask as he pushed the hound from him and jumped to his feet. The dog’s owner was not far off and when Kevin jumped out of the bushes exclaiming curses, she squealed just as he had.
+When he woke it was not because of the morning light or the discomfort of the
+cold. Rather, it was because of a sudden wetness against his forehead. Kevin let
+out a cry that might well have come from his ultrasonic repeller. The golden
+retriever from next door was right there atop him, licking his face with
+abandon. He gagged behind his mask as he pushed the hound from him and jumped to
+his feet. The dog’s owner was not far off and when Kevin jumped out of the
+bushes exclaiming curses, she squealed just as he had.
 
-“Kevin, is that you?” she asked. “Were you sleeping in there? Do you need me to call someone?”
+“Kevin, is that you?” she asked. “Were you sleeping in there? Do you need me to
+call someone?”
 
-Kevin did not respond. He ran straight past her, whimpering in the cold dawn. The pigeons had risen with the sun and a clique of them loitered on the pavement before Kevin’s house. As he ran through them they leapt into the air and fanned another dose of diseased air over him. He crashed through the door and threw himself into the shower still half clothed.
+Kevin did not respond. He ran straight past her, whimpering in the cold dawn.
+The pigeons had risen with the sun and a clique of them loitered on the pavement
+before Kevin’s house. As he ran through them they leapt into the air and fanned
+another dose of diseased air over him. He crashed through the door and threw
+himself into the shower still half clothed.
 
-He could scrub his skin and hair clear, but there was no knowing what infectious particles he might have inhaled, nor what he might have absorbed through the exposed membranes in his eyes and ears. And that was to say nothing of the transdermal exchange that surely occurred when the hound lathered his skin with its infected saliva.
+He could scrub his skin and hair clear, but there was no knowing what infectious
+particles he might have inhaled, nor what he might have absorbed through the
+exposed membranes in his eyes and ears. And that was to say nothing of the
+transdermal exchange that surely occurred when the hound lathered his skin with
+its infected saliva.
 
-Kevin sought out a means of detoxifying himself. This led him to purchase an assemblage of crystals, oils, and detox teas. He placed the crystals both on his person and around his house to best avail himself of their cleansing energy. He diffused the oil into the air and rubbed it into prescribed locations around his body. His stomach went empty for several days as he consumed nothing but the special teas.
+Kevin sought out a means of detoxifying himself. This led him to purchase an
+assemblage of crystals, oils, and detox teas. He placed the crystals both on his
+person and around his house to best avail himself of their cleansing energy. He
+diffused the oil into the air and rubbed it into prescribed locations around his
+body. His stomach went empty for several days as he consumed nothing but the
+special teas.
 
-At last convinced he had rid himself of toxins, Kevin returned to the fight. There was only one recourse left to him. He went to his local hardware store and asked for the strongest poison the man had in stock. He also stopped by the supermarket and bought three loaves of white bread.
+At last convinced he had rid himself of toxins, Kevin returned to the fight.
+There was only one recourse left to him. He went to his local hardware store and
+asked for the strongest poison the man had in stock. He also stopped by the
+supermarket and bought three loaves of white bread.
 
-In protective gear, Kevin went out into his small front garden half an hour before the neighbour’s usual feeding time. He proceeded to toss handfuls of white bread over his own lawn. At first only a single pigeon came. Unlike the other birds it was mostly white, with a mottled brown pattern down its back. Its pleased gurgling ensured that all its comrades soon joined it on Kevin’s lawn. They ate the bread almost as quickly as Kevin could dole it out and in only a few minutes it was gone. It did not yet contain any pellets of poison. He would lull the birds into a sense of safety and comfort so that they would not refuse the poison’s peculiar taste when he did include it in their rations.
+In protective gear, Kevin went out into his small front garden half an hour
+before the neighbour’s usual feeding time. He proceeded to toss handfuls of
+white bread over his own lawn. At first only a single pigeon came. Unlike the
+other birds it was mostly white, with a mottled brown pattern down its back. Its
+pleased gurgling ensured that all its comrades soon joined it on Kevin’s lawn.
+They ate the bread almost as quickly as Kevin could dole it out and in only a
+few minutes it was gone. It did not yet contain any pellets of poison. He would
+lull the birds into a sense of safety and comfort so that they would not refuse
+the poison’s peculiar taste when he did include it in their rations.
 
-Kevin ran inside, scrubbed himself vigorously in a hot shower, and then purified himself with oils as if practising some ancient rite of anointment. He then sat in fragrant comfort by his office window and watched as his neighbour tossed out handfuls of brown bread to a very poor reception indeed. The crooked old man looked puzzled as his flock lazed about without appetite.
+Kevin ran inside, scrubbed himself vigorously in a hot shower, and then purified
+himself with oils as if practising some ancient rite of anointment. He then sat
+in fragrant comfort by his office window and watched as his neighbour tossed out
+handfuls of brown bread to a very poor reception indeed. The crooked old man
+looked puzzled as his flock lazed about without appetite.
 
-Kevin repeated this process in the evening and then again the next morning. He continued on and on until his skin was raw from the post-feed scrubbing. The neighbour took to watching from his front yard as Kevin daily fed the man’s former housemates.
+Kevin repeated this process in the evening and then again the next morning. He
+continued on and on until his skin was raw from the post-feed scrubbing. The
+neighbour took to watching from his front yard as Kevin daily fed the man’s
+former housemates.
 
-The white pigeon with the mottled back took to strutting up and down the window sill by Kevin’s office. It would often look to him askance in what passed for a greeting. Kevin fed it crumbs from a special stash he kept by his desk for just such a purpose. He named the creature Henrietta and he began to speak to it. At first he simply asked how it liked his bread. He progressed to remarks about the weather. Before very long he found himself sharing with it his worst injustices, his greatest triumphs, and all his hopes for the future. Henrietta was an attentive listener. She bobbed her head as Kevin recounted his stories.
+The white pigeon with the mottled back took to strutting up and down the window
+sill by Kevin’s office. It would often look to him askance in what passed for a
+greeting. Kevin fed it crumbs from a special stash he kept by his desk for just
+such a purpose. He named the creature Henrietta and he began to speak to it. At
+first he simply asked how it liked his bread. He progressed to remarks about the
+weather. Before very long he found himself sharing with it his worst injustices,
+his greatest triumphs, and all his hopes for the future. Henrietta was an
+attentive listener. She bobbed her head as Kevin recounted his stories.
 
-Kevin wondered if the other pigeons might have been jealous of Henrietta’s fond relationship with the hand that fed. He was certain that the creatures had relationships of some sort with one another. Often he caught the same little groups happily strutting together. Each individual expressed unique degrees of timidity and friendliness, to the extent that Kevin felt each warranted its own name. He soon appeared before his flock and conversed with them all as he did with Henrietta. He addressed them by name, asked them questions, and told them stories.
+Kevin wondered if the other pigeons might have been jealous of Henrietta’s fond
+relationship with the hand that fed. He was certain that the creatures had
+relationships of some sort with one another. Often he caught the same little
+groups happily strutting together. Each individual expressed unique degrees of
+timidity and friendliness, to the extent that Kevin felt each warranted its own
+name. He soon appeared before his flock and conversed with them all as he did
+with Henrietta. He addressed them by name, asked them questions, and told them
+stories.
 
-After almost two weeks, Kevin had long since inculcated a level of comfort and tameness into the birds that would allow him to at last administer the poison. But first, he needed to test its efficacy. He stuffed one of the green pellets into a ball of white bread while in his office. As usual, Henrietta was strutting up and down the window sill. She paused repeatedly to look at Kevin, as if asking him to tell her another story. Indulging her last request was certainly the gentlemanly thing to do, and so he set the poisoned bread beside him. He leant forward and told Henrietta about the time he fell into the neighbour’s window when trying to climb atop his portico to apply bird-repellent gel all over his house.
+After almost two weeks, Kevin had long since inculcated a level of comfort and
+tameness into the birds that would allow him to at last administer the poison.
+But first, he needed to test its efficacy. He stuffed one of the green pellets
+into a ball of white bread while in his office. As usual, Henrietta was
+strutting up and down the window sill. She paused repeatedly to look at Kevin,
+as if asking him to tell her another story. Indulging her last request was
+certainly the gentlemanly thing to do, and so he set the poisoned bread beside
+him. He leant forward and told Henrietta about the time he fell into the
+neighbour’s window when trying to climb atop his portico to apply bird-repellent
+gel all over his house.
 
-Henrietta listened so well to the story that Kevin thought it only fair to reward her with another day of life. The next day the very same thing happened. And again the day after that.
+Henrietta listened so well to the story that Kevin thought it only fair to
+reward her with another day of life. The next day the very same thing happened.
+And again the day after that.
 
-One evening when Kevin went out to feed his birds, the neighbour emerged from his house and hobbled across the road. He approached Kevin with a shy wave and a smile of broken teeth. He held his hands behind his back as he spoke.
+One evening when Kevin went out to feed his birds, the neighbour emerged from
+his house and hobbled across the road. He approached Kevin with a shy wave and a
+smile of broken teeth. He held his hands behind his back as he spoke.
 
-“I don’t think we’ve had the pleasure to meet just yet,” said the man. “My name is Gerald.”
+“I don’t think we’ve had the pleasure to meet just yet,” said the man. “My name
+is Gerald.”
 
 “Good evening Gerald. I’m Kevin.”
 
-Gerald looked at the birds swarming over Kevin’s garden. They had begun to settle in the nooks and alcoves of Kevin’s house. He held his hands behind his back and said, “I was hoping that… It’s just… Would you mind terribly if I fed these birds with you? I do miss them.”
+Gerald looked at the birds swarming over Kevin’s garden. They had begun to
+settle in the nooks and alcoves of Kevin’s house. He held his hands behind his
+back and said, “I was hoping that… It’s just… Would you mind terribly if I fed
+these birds with you? I do miss them.”
 
-Kevin handed Gerald one of the loaves. The old man smiled and joined Kevin on his porch. Together they passed out handfuls of bread as the birds swirled around them. Henrietta landed just by Kevin’s feet and he passed her a particularly generous serving of bread.
+Kevin handed Gerald one of the loaves. The old man smiled and joined Kevin on
+his porch. Together they passed out handfuls of bread as the birds swirled
+around them. Henrietta landed just by Kevin’s feet and he passed her a
+particularly generous serving of bread.
 
 “She’s a beautiful one, isn’t she?” said Gerald. “She’s my favourite.”
 
 “Mine too,” said Kevin.
 
-When they were out of bread, Gerald thanked Kevin and shook his hand. He asked if they might be able to do the same thing the next morning. Kevin told him to come around at eight.
+When they were out of bread, Gerald thanked Kevin and shook his hand. He asked
+if they might be able to do the same thing the next morning. Kevin told him to
+come around at eight.
