@@ -9,11 +9,11 @@ George knelt over the droppings and prodded them with a stick. Unlike some other
 
 George surveyed the area. He was several hours from the trailhead. The track had taken him at first through dense pine forest and then a series of meadows. Before him now was one of that area’s many small lakes. 
 
-An ancient glacier had gauged the lake out of the earth and polished smooth the limestone hills around it. Stout pines and alpine heath ringed the clear water. George did not continue until he was sure there were no hulking creatures along the lake's shore.
+An ancient glacier had gouged the lake out of the earth and polished smooth the limestone hills around it. Stout pines and alpine heath ringed the clear water. George did not continue until he was sure there were no hulking creatures along the lake’s shore.
 
-There had been a sign at the trailhead concerning bears. It displayed the silhouettes of both the black and grizzly bear, the former relatively slight and the latter bulking and ominous. At the top of the sign were large red letters - DANGER. George had tried to send his mother a picture of the sign, but he had already lost signal.
+There had been a sign at the trailhead concerning bears. It displayed the silhouettes of both the black and grizzly bear, the former relatively slight and the latter bulking and ominous. At the top of the sign were large red letters – DANGER. George had tried to send his mother a picture of the sign, but he had already lost signal.
 
-The trip to Wyoming had not been George’s idea. His mother had asked him to go. She set him a simple task: recreate a photo she had taken of his father twenty years earlier. The photo showed his father grinning before a lake. She had written the name of the lake on the back of the original photo - Island Lake. “It’ll be good for you,” George’s mother had told him. “Go there, take a picture of yourself in the same spot, come back. Easy. And don’t worry about the bears. Your father was never afraid.”
+The trip to Wyoming had not been George’s idea. His mother had asked him to go. She set him a simple task: recreate a photo she had taken of his father twenty years earlier. The photo showed his father grinning before a lake. She had written the name of the lake on the back of the original photo – Island Lake. “It’ll be good for you,” George’s mother had told him. “Go there, take a picture of yourself in the same spot, come back. Easy. And don’t worry about the bears. Your father was never afraid.”
 
 George followed the edge of the lake and watched the muddy trail for any bear sign. There were many boot prints, the fresh pressed on top of the old. At the far side of the lake George reached a particularly muddy stretch where a stream trickled down from an adjacent hillock. In the sodden earth was a fresh print left by a creature with long raking claws. 
 
