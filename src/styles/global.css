@@ -404,6 +404,13 @@ dialog.lightbox { --lb-vpad: 9rem; } /* vertical space reserved for padding + ca
   border-radius: 3px;
 }
 .prose img { display: block; margin: 1.8rem auto; height: auto; border-radius: var(--radius-m); }
+.prose hr {
+  /* scene break */
+  border: none;
+  border-top: 1px solid var(--rule);
+  width: 5rem;
+  margin: 2.2rem auto;
+}
 
 /* Shiki dual-theme: switch token colors in dark mode */
 @media (prefers-color-scheme: dark) {
