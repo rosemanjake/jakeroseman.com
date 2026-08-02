@@ -5,7 +5,7 @@ date: 2023-09-30
 category: fiction
 ---
 
-10th November 1853 - Wimmera District, Victoria.
+<p class="dateline">10th November 1853 – Wimmera District, Victoria.</p>
 
 Alfred tugged at the leash, but the sheep refused to continue. Instead, it began to lower itself onto a bed of fallen leaves. Alfred yanked the rope and forced the creature upright. The two of them carried on downstream, Alfred almost dragging the ewe behind him. When they reached a silt bank at a bend in the river, he tied up the sheep and fetched his pan.
 

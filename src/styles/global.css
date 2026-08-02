@@ -375,14 +375,22 @@ dialog.lightbox { --lb-vpad: 9rem; } /* vertical space reserved for padding + ca
 }
 .fiction .prose p + p { text-indent: 1.6em; }
 .fiction .prose .art-header p { text-indent: 0; text-align: left; }
-.fiction .prose .art-header + p::first-letter,
+.prose .dateline {
+  font-style: italic;
+  color: var(--muted);
+  text-align: left !important;
+  text-indent: 0 !important;
+  margin-bottom: 1.6rem;
+}
+.fiction .prose .dateline + p { text-indent: 0; }
+.fiction .prose .art-header + p:not(.dateline)::first-letter,
+.fiction .prose .dateline + p::first-letter,
 .fiction .prose .body-start::first-letter {
   font-size: 3.1em;
   float: left;
   line-height: 0.82;
   padding: 0.06em 0.08em 0 0;
 }
-.end-mark { text-align: center !important; color: var(--muted); margin-top: 3rem !important; font-size: 1.1rem; text-indent: 0 !important; }
 
 /* Tech articles: code and figures */
 .prose pre {
