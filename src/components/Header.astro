@@ -9,9 +9,9 @@ const { section, tagline } = Astro.props;
 const isHome = Astro.url.pathname === "/";
 
 const tabs = [
+  { label: "Projects", href: "/projects/" },
   { label: "Writing", href: "/writing/" },
   { label: "Photography", href: "/photography/" },
-  { label: "Projects", href: "/projects/" },
   { label: "About", href: "/about/" },
 ];
 ---
@@ -30,7 +30,10 @@ const tabs = [
   <nav class="site-nav">
     {
       tabs.map((tab) => (
-        <a href={tab.href} aria-current={tab.label === section ? "page" : undefined}>
+        <a
+          href={tab.href}
+          aria-current={tab.label === section ? "page" : undefined}
+        >
           {tab.label}
         </a>
       ))
