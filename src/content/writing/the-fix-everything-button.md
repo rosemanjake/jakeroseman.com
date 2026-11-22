@@ -26,19 +26,17 @@ Those who weren’t would nevertheless freely discuss VARCHARs and FLOATs. I fel
 quite out of place.
 
 When I joined the company, all of the technical documents were maintained within
-[InDesign](https://en.wikipedia.org/wiki/Adobe_InDesign) projects, which was of
-course not a very good idea. A senior engineer had the idea of using
-[Markdown](https://en.wikipedia.org/wiki/Markdown). He built a simple service
-that wrapped around [Pandoc](https://pandoc.org/) to convert Markdown files into
-HTML that we could directly display within the company’s web app. I suddenly and
-immediately had a clear idea of how programming could be relevant directly to
-what I was doing, and I wanted to learn more.
+InDesign projects, which was of course not a very good idea. A senior engineer
+had the idea of using Markdown. He built a simple service that wrapped around
+Pandoc to convert Markdown files into HTML that we could directly display within
+the company’s web app. I suddenly and immediately had a clear idea of how
+programming could be relevant directly to what I was doing, and I wanted to
+learn more.
 
-I learnt [LaTeX](https://en.wikipedia.org/wiki/LaTeX) to help with laying out
-some formal mathematical papers, and one colleague was impressed by a
-[TikZ](https://en.wikipedia.org/wiki/PGF/TikZ) diagram I made. That gave me a
-bit of a confidence boost, and I decided I should learn C# to better understand
-what everyone else was doing.
+I learnt LaTeX to help with laying out some formal mathematical papers, and one
+colleague was impressed by a [TikZ](https://en.wikipedia.org/wiki/PGF/TikZ)
+diagram I made. That gave me a bit of a confidence boost, and I decided I should
+learn C# to better understand what everyone else was doing.
 
 I have always loved historical linguistics, so somehow I settled on the idea of
 building a little program that would take a list of
@@ -56,14 +54,13 @@ what I wanted to do. She said “use a loop”. I had a vague sense of what a wh
 loop was, but I had never heard of a for loop.
 
 As it was, I wrote a foreach loop in C# that iterated over a list of strings and
-applied a [regular expression](https://en.wikipedia.org/wiki/Regular_expression)
-replacement to them. I had never actually fully understood that in programming a
-core operation was just iterating over a list of elements and applying some
-transformation to them. I saw straight away that, in fact, it was the only real
-operation any program ever does. It will seem very silly, but in that moment I
-experienced the strongest and clearest epiphany of my life. I was so excited I
-struggled to sleep that night. Using a loop for the first time was the missing
-piece. Finally, I got it.
+applied a regular expression replacement to them. I had never actually fully
+understood that in programming a core operation was just iterating over a list
+of elements and applying some transformation to them. I saw straight away that,
+in fact, it was the only real operation any program ever does. It will seem very
+silly, but in that moment I experienced the strongest and clearest epiphany of
+my life. I was so excited I struggled to sleep that night. Using a loop for the
+first time was the missing piece. Finally, I got it.
 
 I had always thought that programming would have the same sensation as slogging
 through trigonometry problems. Instead, programming felt to me like writing a
@@ -87,26 +84,21 @@ automate my work, and where I could learn from real engineers. As a result, the
 speed at which I was learning increased enormously.
 
 I picked up a few projects at Google, many of which have been successful, but
-none has been as successful as the Markdown
-[linter](<https://en.wikipedia.org/wiki/Lint_(software)>) I built in
-[Kotlin](https://kotlinlang.org/). I started work on it around the start
-of 2022. At first, it was a basic linter for the Android docs, integrated into
-Google’s linter service. By early 2025, it was Google’s Markdown linter, running
-on virtually all Markdown files across the company’s
-[monorepo](https://en.wikipedia.org/wiki/Monorepo). Today, with Markdown prompts
-and skills load-bearing for real production systems, the Markdown linter is the
-second most-used linter in Google, behind only the Python linter.
+none has been as successful as the Markdown linter I built in Kotlin. I started
+work on it around the start of 2022. At first, it was a basic linter for the
+Android docs, integrated into Google’s linter service. By early 2025, it was
+Google’s Markdown linter, running on virtually all Markdown files across the
+company’s monorepo. Today, with Markdown prompts and skills load-bearing for
+real production systems, the Markdown linter is the second most-used linter in
+Google, behind only the Python linter.
 
 The linter taught me much of what I know. It began its life as a small and quite
-naive [state machine](https://en.wikipedia.org/wiki/Finite-state_machine). Over
-time it grew into something else. I implemented all manner of core data
-structures and algorithms: [tries](https://en.wikipedia.org/wiki/Trie),
-[bitmasks](<https://en.wikipedia.org/wiki/Mask_(computing)>),
-[linked lists](https://en.wikipedia.org/wiki/Linked_list), countless linear
-string traversals, and many excruciating regular expressions. I hand-coded all
-of it. I spent thousands of hours typing in flow states, running tests, stepping
-through functions with a debugger, and facing issues I thought I could never
-fix, but which somehow I always did.
+naive state machine. Over time it grew into something else. I implemented all
+manner of core data structures and algorithms: tries, bitmasks, linked lists,
+countless linear string traversals, and many excruciating regular expressions. I
+hand-coded all of it. I spent thousands of hours typing in flow states, running
+tests, stepping through functions with a debugger, and facing issues I thought I
+could never fix, but which somehow I always did.
 
 Many of the things I learnt weren’t even necessarily about programming. For
 example, it taught me the correct scope of a changelist (pull request), the
@@ -124,13 +116,13 @@ causing it, and then have a great deal of fun handcrafting an algorithm to solve
 it. When trying to solve a problem, there is now a magical fix-everything button
 well within reach at all times. It is impossible to resist.
 
-I’m currently rewriting my artisanally handwritten Kotlin in
-[Go](https://go.dev/). [Claude](https://www.anthropic.com/claude) has already
-shipped an initial version. I didn’t write any of the Go myself. However, there
-were a few other interesting things that I did do. I decided on the stack,
-designed the overall architecture of the parser, determined how findings should
-be declared, and shaped the way that it can all be customised through configs. I
-applied all the painful lessons I had learnt from beating my Kotlin into shape.
+I’m currently rewriting my artisanally handwritten Kotlin in Go. Claude has
+already shipped an initial version. I didn’t write any of the Go myself.
+However, there were a few other interesting things that I did do. I decided on
+the stack, designed the overall architecture of the parser, determined how
+findings should be declared, and shaped the way that it can all be customised
+through configs. I applied all the painful lessons I had learnt from beating my
+Kotlin into shape.
 
 The result is a much better piece of software. It is more performant, more
 extensible, and more flexible than the code that I wrote by hand. But it would
