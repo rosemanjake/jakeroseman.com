@@ -9,19 +9,16 @@ const byOrder = (a: Post, b: Post) =>
   (a.data.order ?? Infinity) - (b.data.order ?? Infinity);
 const byDate = (a: Post, b: Post) =>
   (b.data.date?.getTime() ?? 0) - (a.data.date?.getTime() ?? 0);
-const possibleSections: string[] = [
-  ...new Set(posts.map((p) => p.data.category)),
-];
-const sections: Array<{ label: string; posts: Post[] }> = possibleSections.map(
-  (possibleSection) => {
-    return {
-      label: possibleSection,
-      posts: posts
-        .filter((p) => p.data.category === possibleSection)
-        .sort(byOrder),
-    };
+const sections: Array<{ label: string; posts: Post[] }> = [
+  {
+    label: "Fiction",
+    posts: posts.filter((p) => p.data.category === "fiction").sort(byOrder),
   },
-);
+  {
+    label: "Technical",
+    posts: posts.filter((p) => p.data.category === "tech").sort(byDate),
+  },
+].filter((section) => section.posts.length > 0);
 
 const fmt = (d: Date) =>
   d.toLocaleDateString("en-GB", { month: "long", year: "numeric" });
