@@ -11,12 +11,12 @@ const byDate = (a: Post, b: Post) =>
   (b.data.date?.getTime() ?? 0) - (a.data.date?.getTime() ?? 0);
 const sections: Array<{ label: string; posts: Post[] }> = [
   {
-    label: "Fiction",
-    posts: posts.filter((p) => p.data.category === "fiction").sort(byOrder),
-  },
-  {
     label: "Tech",
     posts: posts.filter((p) => p.data.category === "tech").sort(byDate),
+  },
+  {
+    label: "Fiction",
+    posts: posts.filter((p) => p.data.category === "fiction").sort(byOrder),
   },
 ].filter((section) => section.posts.length > 0);
 
