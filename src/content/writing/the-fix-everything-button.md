@@ -1,6 +1,6 @@
 ---
 title: "The Fix-Everything Button"
-subtitle: "On learning to program by hand, and letting agents take over."
+subtitle: "Programming is over."
 date: 2026-11-22
 category: tech
 ---

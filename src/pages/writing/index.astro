@@ -15,7 +15,7 @@ const sections: Array<{ label: string; posts: Post[] }> = [
     posts: posts.filter((p) => p.data.category === "fiction").sort(byOrder),
   },
   {
-    label: "Technical",
+    label: "Tech",
     posts: posts.filter((p) => p.data.category === "tech").sort(byDate),
   },
 ].filter((section) => section.posts.length > 0);
