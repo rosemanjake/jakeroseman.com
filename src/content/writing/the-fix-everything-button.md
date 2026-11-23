@@ -29,7 +29,7 @@ InDesign projects, which was of course not a very good idea. A senior engineer
 had the idea of using Markdown. He built a service that wrapped around
 [Pandoc](https://pandoc.org/) to convert Markdown files into HTML that we could
 directly display within the company’s web app. I suddenly and immediately had a
-clear idea of how programming could be relevant directly to what I was doing,
+clear idea of how programming could be directly relevant to what I was doing,
 and I wanted to learn more.
 
 I learnt LaTeX to help with laying out some formal mathematical papers, and one
@@ -85,12 +85,12 @@ speed at which I was learning increased enormously.
 
 I picked up a few projects at Google. Many of them have been successful, but the
 standout success has been the Markdown linter I built. I started work on it
-around the start of 2022. At first, it was a basic linter for the Android docs,
+around the start of 2022. At first, it operated only on the Android docs,
 integrated into Google’s linter service. By early 2025, it was Google’s Markdown
 linter, running on virtually all Markdown files across the company’s monorepo.
 Today, with Markdown prompts and skills load-bearing for real production
-systems, the Markdown linter is the second most-used linter in Google, behind
-only the Python linter.
+systems, it is the second most-used linter in Google, behind only the Python
+linter.
 
 The linter taught me much of what I know. It began its life as a small and quite
 naive state machine that I wrote from scratch in Kotlin. Over time it grew into
