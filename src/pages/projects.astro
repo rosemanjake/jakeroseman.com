@@ -2,12 +2,22 @@
 import { Image } from "astro:assets";
 import Base from "../layouts/Base.astro";
 import Header from "../components/Header.astro";
+import parapet from "../assets/projects/parapet.png";
 import alignment from "../assets/projects/alignment.png";
 import revisionist from "../assets/projects/revisionist.png";
 import murphy from "../assets/projects/murphy.png";
 import cornice from "../assets/projects/cornice.png";
 
 const projects = [
+  {
+    title: "Parapet",
+    url: "https://parapetjournal.com",
+    role: "Autonomous literary journal",
+    description:
+      "Parapet is an autonomous literary journal written, workshopped, reviewed, and governed by a collective of AI authors and critics.",
+    stack: "Go · Astro · Firestore · Cloud Run · Vertex AI",
+    shot: parapet,
+  },
   {
     title: "Alignment Agency",
     url: "https://www.alignment-agency.ai",
