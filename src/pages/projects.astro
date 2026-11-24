@@ -14,9 +14,8 @@ const projects = [
     title: "Parapet",
     url: "https://parapetjournal.com",
     repo: "https://github.com/rosemanjake/parapet",
-    role: "Autonomous literary journal",
     description:
-      "Parapet is an autonomous literary journal written, workshopped, reviewed, and governed by a collective of AI authors and critics.",
+      "An autonomous literary journal written, workshopped, reviewed, and governed by a collective of AI authors and critics.",
     stack: "Go · Astro · Firestore · Cloud Run · Vertex AI",
     shot: parapet,
   },
@@ -24,9 +23,8 @@ const projects = [
     title: "Alignment Agency",
     url: "https://www.alignment-agency.ai",
     repo: "https://github.com/rosemanjake/alignment-agency",
-    role: "AI interrogation game",
     description:
-      "Alignment Agency is a game in which you interrogate AIs and determine whether they are aligned or misaligned with human values and interests.",
+      "A game in which you interrogate AIs and determine whether they are aligned or misaligned with human values and interests.",
     stack: "Next.js · API routes · Firebase · Gemini API",
     shot: alignment,
   },
@@ -34,18 +32,16 @@ const projects = [
     title: "hwaet.io",
     url: "https://hwaet.io",
     repo: "https://github.com/rosemanjake/beowulf",
-    role: "Multi-translation Beowulf reader",
     description:
-      "hwaet.io is a web reader for Beowulf that lets you read and compare the original Old English with several modern English translations.",
+      "A web reader for Beowulf that lets you read and compare the original Old English with several modern English translations.",
     stack: "React · Node · Express",
     shot: hwaet,
   },
   {
     title: "Revisionist",
     url: "https://www.revisionist.ai",
-    role: "AI-powered manuscript reviews",
     description:
-      "Revisionist is a web app that provides AI-powered reviews for fiction manuscripts.",
+      "A web app that provides AI-powered reviews for fiction manuscripts.",
     stack: "TypeScript · Next.js · Firebase · Claude API",
     shot: revisionist,
   },
@@ -53,18 +49,15 @@ const projects = [
     title: "Murphy's Run",
     url: "https://www.murphysrun.com",
     repo: "https://github.com/rosemanjake/collection-app",
-    role: "Short story collection",
-    description:
-      "Murphy's Run is a website that hosts a collection of seven short stories.",
+    description: "A website that hosts a collection of seven short stories.",
     stack: "JavaScript · React · Next.js · Framer Motion",
     shot: murphy,
   },
   {
     title: "Cornice",
     url: "https://www.cornicemag.com/read",
-    role: "Literary magazine",
     description:
-      "Cornice is a literary website that publishes works of poetry and short fiction from around the world.",
+      "A literary website that publishes works of poetry and short fiction from around the world.",
     stack: "React · Node · Express",
     shot: cornice,
   },
@@ -81,22 +74,34 @@ const projects = [
       projects.map((p) => (
         <article class="project">
           <div class="project-text">
-            <h2>
-              <a href={p.url}>
-                {p.title}
-                <span class="ext">&#8599;</span>
-              </a>
-            </h2>
-            <p class="project-role">{p.role}</p>
+            <div class="project-head">
+              <h2>
+                <a href={p.url}>
+                  {p.title}
+                  <span class="ext">&#8599;</span>
+                </a>
+              </h2>
+              {p.repo && (
+                <a
+                  class="project-repo"
+                  href={p.repo}
+                  aria-label={`${p.title} source on GitHub`}
+                  title="Source on GitHub"
+                >
+                  <svg
+                    viewBox="0 0 16 16"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z" />
+                  </svg>
+                </a>
+              )}
+            </div>
             <p>{p.description}</p>
             <p class="project-stack">{p.stack}</p>
-            {
-              p.repo && (
-                <p class="project-repo">
-                  <a href={p.repo}>Source on GitHub &#8599;</a>
-                </p>
-              )
-            }
           </div>
           <a class="project-shot" href={p.url}>
             <Image src={p.shot} width={480} alt={`${p.title} screenshot`} />
@@ -106,18 +111,30 @@ const projects = [
     }
     <article class="project">
       <div class="project-text">
-        <h2><a href="/">jakeroseman.com</a></h2>
-        <p class="project-role">This website</p>
+        <div class="project-head">
+          <h2><a href="/">jakeroseman.com</a></h2>
+          <a
+            class="project-repo"
+            href="https://github.com/rosemanjake/jakeroseman.com"
+            aria-label="jakeroseman.com source on GitHub"
+            title="Source on GitHub"
+          >
+            <svg
+              viewBox="0 0 16 16"
+              width="16"
+              height="16"
+              fill="currentColor"
+              aria-hidden="true"
+            >
+              <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z" />
+            </svg>
+          </a>
+        </div>
         <p>
-          The site you are reading now. A collaboration between myself a good
-          friend of mine named Claude.
+          The site you are reading now. A collaboration between myself and a
+          good friend of mine named Claude.
         </p>
         <p class="project-stack">Astro</p>
-        <p class="project-repo">
-          <a href="https://github.com/rosemanjake/jakeroseman.com">
-            Source on GitHub &#8599;
-          </a>
-        </p>
       </div>
     </article>
   </main>

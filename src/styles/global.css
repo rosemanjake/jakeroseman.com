@@ -442,11 +442,24 @@ dialog.lightbox { --lb-vpad: 9rem; } /* vertical space reserved for padding + ca
 }
 .project:last-child { border-bottom: none; }
 .project-text { flex: 1; }
-.project h2 { font-size: 1.35rem; font-weight: 600; margin: 0 0 0.15rem; }
+.project-head {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  margin: 0 0 0.65rem;
+}
+.project h2 { font-size: 1.35rem; font-weight: 600; margin: 0; }
 .project h2 a { color: inherit; text-decoration: none; }
 .project h2 a:hover { text-decoration: underline; text-underline-offset: 3px; text-decoration-thickness: 1px; }
 .project .ext { font-size: 0.75em; color: var(--muted); margin-left: 0.3em; }
-.project-role { font-style: italic; color: var(--muted); margin: 0 0 0.8rem; }
+.project-repo {
+  display: inline-flex;
+  align-items: center;
+  color: var(--muted);
+  text-decoration: none;
+  margin-top: 2px;
+}
+.project-repo:hover { color: var(--ink); }
 .project-text p { margin: 0 0 0.8rem; line-height: 1.6; }
 .project-stack {
   font-family: var(--sans);
@@ -454,23 +467,6 @@ dialog.lightbox { --lb-vpad: 9rem; } /* vertical space reserved for padding + ca
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--muted);
-}
-.project-text .project-repo {
-  margin: 0.5rem 0 0;
-  font-family: var(--sans);
-  font-size: 0.78rem;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-}
-.project-repo a {
-  color: var(--ink);
-  text-decoration: underline;
-  text-underline-offset: 3px;
-  text-decoration-thickness: 1px;
-  text-decoration-color: var(--muted);
-}
-.project-repo a:hover {
-  text-decoration-color: var(--ink);
 }
 .project-shot { flex: 0 0 240px; }
 .project-shot img { width: 100%; display: block; border: 1px solid var(--rule); height: auto; border-radius: var(--radius-m); box-shadow: var(--shadow); }
