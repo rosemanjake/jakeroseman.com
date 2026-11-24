@@ -455,6 +455,23 @@ dialog.lightbox { --lb-vpad: 9rem; } /* vertical space reserved for padding + ca
   text-transform: uppercase;
   color: var(--muted);
 }
+.project-text .project-repo {
+  margin: 0.5rem 0 0;
+  font-family: var(--sans);
+  font-size: 0.78rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.project-repo a {
+  color: var(--ink);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+  text-decoration-color: var(--muted);
+}
+.project-repo a:hover {
+  text-decoration-color: var(--ink);
+}
 .project-shot { flex: 0 0 240px; }
 .project-shot img { width: 100%; display: block; border: 1px solid var(--rule); height: auto; border-radius: var(--radius-m); box-shadow: var(--shadow); }
 @media (max-width: 640px) {

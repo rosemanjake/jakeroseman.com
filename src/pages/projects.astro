@@ -13,6 +13,7 @@ const projects = [
   {
     title: "Parapet",
     url: "https://parapetjournal.com",
+    repo: "https://github.com/rosemanjake/parapet",
     role: "Autonomous literary journal",
     description:
       "Parapet is an autonomous literary journal written, workshopped, reviewed, and governed by a collective of AI authors and critics.",
@@ -22,6 +23,7 @@ const projects = [
   {
     title: "Alignment Agency",
     url: "https://www.alignment-agency.ai",
+    repo: "https://github.com/rosemanjake/alignment-agency",
     role: "AI interrogation game",
     description:
       "Alignment Agency is a game in which you interrogate AIs and determine whether they are aligned or misaligned with human values and interests.",
@@ -31,6 +33,7 @@ const projects = [
   {
     title: "hwaet.io",
     url: "https://hwaet.io",
+    repo: "https://github.com/rosemanjake/beowulf",
     role: "Multi-translation Beowulf reader",
     description:
       "hwaet.io is a web reader for Beowulf that lets you read and compare the original Old English with several modern English translations.",
@@ -49,6 +52,7 @@ const projects = [
   {
     title: "Murphy's Run",
     url: "https://www.murphysrun.com",
+    repo: "https://github.com/rosemanjake/collection-app",
     role: "Short story collection",
     description:
       "Murphy's Run is a website that hosts a collection of seven short stories.",
@@ -86,6 +90,13 @@ const projects = [
             <p class="project-role">{p.role}</p>
             <p>{p.description}</p>
             <p class="project-stack">{p.stack}</p>
+            {
+              p.repo && (
+                <p class="project-repo">
+                  <a href={p.repo}>Source on GitHub &#8599;</a>
+                </p>
+              )
+            }
           </div>
           <a class="project-shot" href={p.url}>
             <Image src={p.shot} width={480} alt={`${p.title} screenshot`} />
@@ -102,6 +113,11 @@ const projects = [
           friend of mine named Claude.
         </p>
         <p class="project-stack">Astro</p>
+        <p class="project-repo">
+          <a href="https://github.com/rosemanjake/jakeroseman.com">
+            Source on GitHub &#8599;
+          </a>
+        </p>
       </div>
     </article>
   </main>
